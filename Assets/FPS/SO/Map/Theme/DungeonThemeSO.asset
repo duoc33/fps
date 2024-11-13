@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725ae5fb968d7084e8c53191e8e83dcd, type: 3}
+  m_Name: DungeonThemeSO
+  m_EditorClassIdentifier: 
+  GroundItems:
+  - {fileID: 11400000, guid: 060ca6a436358764ea71b6bdb5f26ad1, type: 2}
+  WallItems:
+  - {fileID: 11400000, guid: b5bb64921e5871e46bca694b2f33419e, type: 2}
+  - {fileID: 11400000, guid: 10b93def51ea5824781894549f830985, type: 2}
+  DoorItems:
+  - {fileID: 11400000, guid: 0cab7490da309ed4f8366907e84bf495, type: 2}
+  FenceItems:
+  - {fileID: 11400000, guid: 6c86e320444d8274aa34de421ae89036, type: 2}
+  StairItems:
+  - {fileID: 11400000, guid: e386e1581c20f62439a3b06b04bd90bb, type: 2}
+  OtherDecoItems:
+  - {fileID: 11400000, guid: bcfe59afcfc11204b979c2357e6eae18, type: 2}

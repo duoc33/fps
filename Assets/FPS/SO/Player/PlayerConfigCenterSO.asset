@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf1a7b911adb5543bdfe498c4c9fd3b, type: 3}
+  m_Name: PlayerConfigCenterSO
+  m_EditorClassIdentifier: 
+  playerStateSO: {fileID: 11400000, guid: 2fca3144df5fcd04db2e5e857ac66ece, type: 2}
+  playerMotionSO: {fileID: 11400000, guid: f79d55aab40235241aa5a531a70e7379, type: 2}
+  weaponSO: {fileID: 11400000, guid: 438449c98c4f4b34eb10f9b5757b4efb, type: 2}
+  fPSWeaponAnimationSO: {fileID: 11400000, guid: 32a81929c1750274ea79d30540a1364f,
+    type: 2}

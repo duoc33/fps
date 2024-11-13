@@ -1,0 +1,450 @@
+{
+  "$type": "FPS.FPSConfigSO, Assembly-CSharp",
+  "dungeonDataSO": {
+    "$type": "DungeonArchitectExtension.DungeonDataSO, Assembly-CSharp",
+    "gridDungeonConfigSO": {
+      "$type": "DungeonArchitectExtension.GridDungeonConfigSO, Assembly-CSharp",
+      "Seed": 0,
+      "GridCellSize": {
+        "x": 4.0,
+        "y": 2.0,
+        "z": 4.0
+      },
+      "NumCells": 150,
+      "MinCellSize": 3,
+      "MaxCellSize": 5,
+      "RoomAreaThreshold": 20,
+      "RoomAspectDelta": 0.4,
+      "HeightVariationProbability": 0.75,
+      "SpanningTreeLoopProbability": 0.2,
+      "StairConnectionTollerance": 6.0,
+      "CorridorWidth": 2,
+      "DoorProximitySteps": 3.0,
+      "NormalMean": 0.0,
+      "NormalStd": 0.3
+    },
+    "dungeonThemeSO": {
+      "$type": "DungeonArchitectExtension.DungeonThemeSO, Assembly-CSharp",
+      "GroundItems": [
+        {
+          "$type": "DungeonArchitectExtension.ThemeItemSO, Assembly-CSharp",
+          "Url": "DungeonThemeArts/Prefab/Ground",
+          "ParentSocketName": "",
+          "IsNeedMeshCollider": false,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "IsObstacle": false,
+          "AttachmentProbability": 1.0,
+          "ConsumeOnAttach": true,
+          "ChildSockets": [
+            "DecoFlower"
+          ]
+        }
+      ],
+      "WallItems": [
+        {
+          "$type": "DungeonArchitectExtension.ThemeItemSO, Assembly-CSharp",
+          "Url": "DungeonThemeArts/Prefab/Wall1",
+          "ParentSocketName": "",
+          "IsNeedMeshCollider": false,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "IsObstacle": false,
+          "AttachmentProbability": 0.7,
+          "ConsumeOnAttach": true,
+          "ChildSockets": []
+        },
+        {
+          "$type": "DungeonArchitectExtension.ThemeItemSO, Assembly-CSharp",
+          "Url": "DungeonThemeArts/Prefab/Wall2",
+          "ParentSocketName": "",
+          "IsNeedMeshCollider": false,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "IsObstacle": false,
+          "AttachmentProbability": 1.0,
+          "ConsumeOnAttach": true,
+          "ChildSockets": []
+        }
+      ],
+      "DoorItems": [
+        {
+          "$type": "DungeonArchitectExtension.ThemeItemSO, Assembly-CSharp",
+          "Url": "DungeonThemeArts/Prefab/Door",
+          "ParentSocketName": "",
+          "IsNeedMeshCollider": true,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "IsObstacle": false,
+          "AttachmentProbability": 1.0,
+          "ConsumeOnAttach": true,
+          "ChildSockets": []
+        }
+      ],
+      "FenceItems": [
+        {
+          "$type": "DungeonArchitectExtension.ThemeItemSO, Assembly-CSharp",
+          "Url": "DungeonThemeArts/Prefab/Fence",
+          "ParentSocketName": "",
+          "IsNeedMeshCollider": false,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "IsObstacle": false,
+          "AttachmentProbability": 1.0,
+          "ConsumeOnAttach": true,
+          "ChildSockets": []
+        }
+      ],
+      "StairItems": [
+        {
+          "$type": "DungeonArchitectExtension.ThemeItemSO, Assembly-CSharp",
+          "Url": "DungeonThemeArts/Prefab/Stairs",
+          "ParentSocketName": "",
+          "IsNeedMeshCollider": true,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 180.0,
+            "z": 0.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "IsObstacle": false,
+          "AttachmentProbability": 1.0,
+          "ConsumeOnAttach": true,
+          "ChildSockets": [
+            ""
+          ]
+        }
+      ],
+      "OtherDecoItems": [
+        {
+          "$type": "DungeonArchitectExtension.ThemeItemSO, Assembly-CSharp",
+          "Url": "DungeonThemeArts/Prefab/FlowerPot",
+          "ParentSocketName": "DecoFlower",
+          "IsNeedMeshCollider": false,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "IsObstacle": true,
+          "AttachmentProbability": 0.05,
+          "ConsumeOnAttach": true,
+          "ChildSockets": []
+        }
+      ]
+    },
+    "groundNavMeshSO": {
+      "$type": "NavMeshExtension.NavMeshSO, Assembly-CSharp",
+      "Radius": 0.3,
+      "Height": 2.0,
+      "MaxSlope": 55.0,
+      "MaxClimb": 0.8
+    }
+  },
+  "nPCConfigSOs": [
+    {
+      "$type": "FPS.NPCConfigSO, Assembly-CSharp",
+      "NPCUrl": "NPC/CharacterPack Lowpoly (FREE)/Prefabs/character1",
+      "GenerateCount": 10,
+      "nPCStateSO": {
+        "$type": "FPS.NPCStateSO, Assembly-CSharp",
+        "Health": 100,
+        "IdleWalkTransitionTime": 2.0,
+        "WalkOnceDistance": 15.0,
+        "FoundOutPlayerDistance": 8.0,
+        "ShootInterval": 2.0,
+        "CorrectHitRate": 0.3,
+        "HitOffsetMin": 1.0,
+        "HitOffsetMax": 4.0
+      },
+      "navMeshAgentSO": {
+        "$type": "NavMeshExtension.NavMeshAgentSO, Assembly-CSharp",
+        "MaxSpeed": 7.0,
+        "WalkSpeed": 3.5,
+        "AngularSpeed": 120.0,
+        "Acceleration": 8.0,
+        "StoppingDistance": 5.0
+      },
+      "nPCAnimationSO": {
+        "$type": "FPS.NPCAnimationSO, Assembly-CSharp",
+        "IdleAnimUrl": "",
+        "WalkAnimUrl": "",
+        "RunAnimUrl": "",
+        "FireAnimUrl": "",
+        "DeathAnimUrl": ""
+      },
+      "weaponSO": {
+        "$type": "FPS.WeaponSO, Assembly-CSharp",
+        "WeaponPrefabUrl": "Weapon/Weapon/Weapon",
+        "BulletPrefabUrl": "Weapon/Bullet/Bullet",
+        "recoilAmount": 2.0,
+        "recoilHorizontalAmount": 0.5,
+        "recoilRecoverySpeed": 5.0,
+        "Damage": 5,
+        "BulletSpeed": 25.0,
+        "BulletLifeTime": 10.0,
+        "MinFireInterval": 0.1,
+        "fPSWeaponAnimationSO": null
+      }
+    },
+    {
+      "$type": "FPS.NPCConfigSO, Assembly-CSharp",
+      "NPCUrl": "NPC/Character/Prefab/Armature",
+      "GenerateCount": 15,
+      "nPCStateSO": {
+        "$type": "FPS.NPCStateSO, Assembly-CSharp",
+        "Health": 100,
+        "IdleWalkTransitionTime": 5.0,
+        "WalkOnceDistance": 15.0,
+        "FoundOutPlayerDistance": 10.0,
+        "ShootInterval": 2.0,
+        "CorrectHitRate": 0.3,
+        "HitOffsetMin": 1.0,
+        "HitOffsetMax": 4.0
+      },
+      "navMeshAgentSO": {
+        "$type": "NavMeshExtension.NavMeshAgentSO, Assembly-CSharp",
+        "MaxSpeed": 3.5,
+        "WalkSpeed": 1.0,
+        "AngularSpeed": 120.0,
+        "Acceleration": 8.0,
+        "StoppingDistance": 6.0
+      },
+      "nPCAnimationSO": {
+        "$type": "FPS.NPCAnimationSO, Assembly-CSharp",
+        "IdleAnimUrl": "",
+        "WalkAnimUrl": "",
+        "RunAnimUrl": "",
+        "FireAnimUrl": "",
+        "DeathAnimUrl": ""
+      },
+      "weaponSO": {
+        "$type": "FPS.WeaponSO, Assembly-CSharp",
+        "WeaponPrefabUrl": "Weapon/Weapon/Weapon",
+        "BulletPrefabUrl": "Weapon/Bullet/Bullet",
+        "recoilAmount": 2.0,
+        "recoilHorizontalAmount": 0.5,
+        "recoilRecoverySpeed": 5.0,
+        "Damage": 10,
+        "BulletSpeed": 20.0,
+        "BulletLifeTime": 10.0,
+        "MinFireInterval": 0.1,
+        "fPSWeaponAnimationSO": null
+      }
+    },
+    {
+      "$type": "FPS.NPCConfigSO, Assembly-CSharp",
+      "NPCUrl": "NPC/CharacterPack Lowpoly (FREE)/Prefabs/character2",
+      "GenerateCount": 15,
+      "nPCStateSO": {
+        "$type": "FPS.NPCStateSO, Assembly-CSharp",
+        "Health": 150,
+        "IdleWalkTransitionTime": 5.0,
+        "WalkOnceDistance": 15.0,
+        "FoundOutPlayerDistance": 15.0,
+        "ShootInterval": 1.0,
+        "CorrectHitRate": 0.3,
+        "HitOffsetMin": 1.0,
+        "HitOffsetMax": 4.0
+      },
+      "navMeshAgentSO": {
+        "$type": "NavMeshExtension.NavMeshAgentSO, Assembly-CSharp",
+        "MaxSpeed": 9.0,
+        "WalkSpeed": 1.0,
+        "AngularSpeed": 120.0,
+        "Acceleration": 8.0,
+        "StoppingDistance": 9.0
+      },
+      "nPCAnimationSO": {
+        "$type": "FPS.NPCAnimationSO, Assembly-CSharp",
+        "IdleAnimUrl": "",
+        "WalkAnimUrl": "",
+        "RunAnimUrl": "",
+        "FireAnimUrl": "",
+        "DeathAnimUrl": ""
+      },
+      "weaponSO": {
+        "$type": "FPS.WeaponSO, Assembly-CSharp",
+        "WeaponPrefabUrl": "Weapon/Weapon/Weapon",
+        "BulletPrefabUrl": "Weapon/Bullet/Bullet",
+        "recoilAmount": 2.0,
+        "recoilHorizontalAmount": 0.5,
+        "recoilRecoverySpeed": 5.0,
+        "Damage": 5,
+        "BulletSpeed": 35.0,
+        "BulletLifeTime": 10.0,
+        "MinFireInterval": 0.1,
+        "fPSWeaponAnimationSO": null
+      }
+    },
+    {
+      "$type": "FPS.NPCConfigSO, Assembly-CSharp",
+      "NPCUrl": "NPC/CharacterPack Lowpoly (FREE)/Prefabs/character3",
+      "GenerateCount": 15,
+      "nPCStateSO": {
+        "$type": "FPS.NPCStateSO, Assembly-CSharp",
+        "Health": 200,
+        "IdleWalkTransitionTime": 5.0,
+        "WalkOnceDistance": 15.0,
+        "FoundOutPlayerDistance": 15.0,
+        "ShootInterval": 0.8,
+        "CorrectHitRate": 0.3,
+        "HitOffsetMin": 1.0,
+        "HitOffsetMax": 4.0
+      },
+      "navMeshAgentSO": {
+        "$type": "NavMeshExtension.NavMeshAgentSO, Assembly-CSharp",
+        "MaxSpeed": 3.5,
+        "WalkSpeed": 1.0,
+        "AngularSpeed": 120.0,
+        "Acceleration": 8.0,
+        "StoppingDistance": 5.0
+      },
+      "nPCAnimationSO": {
+        "$type": "FPS.NPCAnimationSO, Assembly-CSharp",
+        "IdleAnimUrl": "",
+        "WalkAnimUrl": "",
+        "RunAnimUrl": "",
+        "FireAnimUrl": "",
+        "DeathAnimUrl": ""
+      },
+      "weaponSO": {
+        "$type": "FPS.WeaponSO, Assembly-CSharp",
+        "WeaponPrefabUrl": "Weapon/Weapon/Weapon",
+        "BulletPrefabUrl": "Weapon/Bullet/Bullet",
+        "recoilAmount": 2.0,
+        "recoilHorizontalAmount": 0.5,
+        "recoilRecoverySpeed": 5.0,
+        "Damage": 5,
+        "BulletSpeed": 40.0,
+        "BulletLifeTime": 10.0,
+        "MinFireInterval": 0.1,
+        "fPSWeaponAnimationSO": null
+      }
+    }
+  ],
+  "playerConfigCenterSO": {
+    "$type": "FPS.PlayerConfigCenterSO, Assembly-CSharp",
+    "playerStateSO": {
+      "$type": "FPS.PlayerStateSO, Assembly-CSharp",
+      "Health": 100,
+      "Height": 1.8,
+      "Radius": 0.5
+    },
+    "playerMotionSO": {
+      "$type": "FPS.PlayerMotionSO, Assembly-CSharp",
+      "Gravity": -9.81,
+      "JumpHeight": 1.2,
+      "TerminalVelocity": 60.0,
+      "SprintSpeed": 6.0,
+      "MoveSpeed": 4.0,
+      "SpeedChangeRate": 10.0,
+      "FallJudgeTime": 0.15,
+      "JumpIntervalTime": 0.1,
+      "RotationSpeed": 5.0,
+      "TopClamp": 60.0,
+      "BottomClamp": 60.0
+    },
+    "weaponSO": {
+      "$type": "FPS.WeaponSO, Assembly-CSharp",
+      "WeaponPrefabUrl": "PlayerWeapon/Prefab/Pistol",
+      "BulletPrefabUrl": "PlayerWeapon/Prefab/Bullet",
+      "recoilAmount": 3.0,
+      "recoilHorizontalAmount": 0.5,
+      "recoilRecoverySpeed": 5.0,
+      "Damage": 50,
+      "BulletSpeed": 20.0,
+      "BulletLifeTime": 10.0,
+      "MinFireInterval": 0.1,
+      "fPSWeaponAnimationSO": {
+        "$type": "FPS.FPSWeaponAnimationSO, Assembly-CSharp",
+        "ReloadAnimUrl": "",
+        "FireAnimUrl": ""
+      }
+    }
+  }
+}

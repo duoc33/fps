@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/ManagersCore/UI/GameState/OpenCoordGameStateControllerBase.cs.meta
+guid: ccc4f218418eacf4c8a34e6957f95f36
+========
+guid: 27617af0d799d4246b1b722a91de1554
+>>>>>>>> dev_chenchuang:Assets/DataManager/Core/ForDebug/Editor/ForDebug.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87bbba433f5f804e81134ce19c569f0, type: 3}
+  m_Name: DungeonDataSO
+  m_EditorClassIdentifier: 
+  gridDungeonConfigSO: {fileID: 11400000, guid: 2e0ad2a778cd33b43ae7a995b3361b1c,
+    type: 2}
+  dungeonThemeSO: {fileID: 11400000, guid: 56ebf4d6ba5f2c342bd74550250824fa, type: 2}
+  groundNavMeshSO: {fileID: 11400000, guid: d36d16af3e4913348898a3ca78c8ae14, type: 2}

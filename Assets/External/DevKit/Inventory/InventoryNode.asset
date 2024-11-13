@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ef4239c0a06584d9dc874b0064acc6, type: 3}
+  m_Name: InventoryNode
+  m_EditorClassIdentifier: 
+  anchorType: 8
+  pivotType: 8
+  position: {x: 0, y: 0}
+  size: {x: 500, y: 500}
+  TitleText: CC
+  TitleColor: {r: 0, g: 0, b: 0, a: 1}
+  scrollViewType: 0
+  cellSize: {x: 150, y: 150}
+  cellSpacing: {x: 15, y: 15}
+  CellPerRow: 6
+  PaddingLeft: 15
+  PaddingRight: 15
+  PaddingTop: 15
+  PaddingBottom: 15
+  CellTemplate: {fileID: 1491171144874966706, guid: fd324adfb3b5c674197c34f9e7265c93,
+    type: 3}
+  InventoryPrefab: {fileID: 443996221385411924, guid: 03697f210d24f5b4b9ac8d3e45601adb,
+    type: 3}

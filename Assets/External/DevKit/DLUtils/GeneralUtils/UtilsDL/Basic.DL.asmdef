@@ -1,0 +1,23 @@
+{
+    "name": "Basic.DL",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9069ac25d95ca17448a247f3bb1c769f",
+        "GUID:78ed83edfec5c144790d2a41115f9776",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:c2bc948ea6b6e934abb8cd263a869154",
+        "GUID:92401658c2e35d94c93ddb991c046b12",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:a95126852fc3b754d91ef43c4987811f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

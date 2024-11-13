@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eba635249314e6f4eb5be3f1473e930d, type: 3}
+  m_Name: FPSConfigSO
+  m_EditorClassIdentifier: 
+  dungeonDataSO: {fileID: 11400000, guid: 746a37bc62b04d34387174cc059aefdb, type: 2}
+  nPCConfigSOs:
+  - {fileID: 11400000, guid: 3b481529e0e7e4b48b270de39407db9c, type: 2}
+  - {fileID: 11400000, guid: 6dca3b5bbce77c743b2956e97859e4d9, type: 2}
+  - {fileID: 11400000, guid: ebf5d8fa9069bdb4c9dfb8fd64642abf, type: 2}
+  - {fileID: 11400000, guid: cbaebfa9c23541744829ad362bd5b033, type: 2}
+  playerConfigCenterSO: {fileID: 11400000, guid: ad580c8ca77de744ebafb395c4ee262d,
+    type: 2}
